@@ -103,7 +103,39 @@
             <section class = "section">
                 <h1 class="section-header">
             	    <div>Lista de Usuarios</div>
-         	    </h1>  
+         	    </h1>
+                <div class="card-body">
+                    <div class="card" >
+                        <div class="col-md-12">
+                            <div class="tile">
+                                <div class="tile-body">
+                                    <table class="table table-hover table-bordered" id="sampleTable">
+                                        <thead>
+                                        <tr>
+                                            <th>Tipo Usuario</th>
+                                            <th>Usuario</th>
+                                            <th>Nombre</th>
+                                            <th>Correo</th>
+                                            <th>Identificacion</th>
+                                            <th>Telefono</th>
+                                            <th>Sexo</th>
+                                            <th>Creacion</th>
+                                            <!--<th> <i class="ion ion-gear-b"></i></th>Eliminar Editar-->
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <?php
+
+                                      $tipo_usuario->Mostrarusuarios();
+
+                                        ?>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
       </div>
       <footer class="main-footer">

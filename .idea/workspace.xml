@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7228fdf2-2bf7-4855-8aed-2eb3a78c61a5" name="Changes" comment="agregando logo">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bd/basedatos.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vista/images/Logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/crearusuario.php" beforeDir="false" afterPath="$PROJECT_DIR$/vista/crearusuario.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controlador/Tipousuariocontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlador/Tipousuariocontroller.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vista/indexA.php" beforeDir="false" afterPath="$PROJECT_DIR$/vista/indexA.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/vista/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vista/listauA.php" beforeDir="false" afterPath="$PROJECT_DIR$/vista/listauA.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +75,8 @@
       <workItem from="1652722431126" duration="5591000" />
       <workItem from="1652747851095" duration="627000" />
       <workItem from="1652896653720" duration="3998000" />
+      <workItem from="1652904739041" duration="3037000" />
+      <workItem from="1652909751536" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="primer comit">
       <created>1652724974352</created>

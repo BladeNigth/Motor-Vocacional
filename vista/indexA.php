@@ -116,6 +116,92 @@
             </div>
           </div>
                   -->
+          <div class="container">
+              <div id="accordion">
+                  <div class="card">
+                      <div class="card-header">
+                          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                              Profesiones
+                          </a>
+                      </div>
+                      <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                          <div class="card-body">
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+                             Video Tutoriales
+                          </a>
+                      </div>
+                      <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                          <div class="row">
+
+                              <div class="col-12 col-md-6 col-lg-6">
+                                  <div class="card">
+                                      <div class="card-header">
+                                          <div class="card-body">
+                                              <div>
+                                                  <iframe width="450" height="315" src="https://www.youtube.com/embed/_4oOr0DDrZw" title="YouTube video player"
+                                                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                                  </iframe>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-lg-6">
+                                  <div class="card">
+                                      <div class="card-header">
+                                          <div class="card-body">
+                                              <div>
+                                                  <iframe width="450" height="315" src="https://www.youtube.com/embed/_4oOr0DDrZw" title="YouTube video player"
+                                                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                                  </iframe>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <div class="col-12 col-md-6 col-lg-6">
+                                  <div class="card">
+                                      <div class="card-header">
+                                          <div class="card-body">
+                                              <div>
+                                                  <iframe width="450" height="315" src="https://www.youtube.com/embed/_4oOr0DDrZw" title="YouTube video player"
+                                                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                                                  </iframe>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header">
+                          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+                              Collapsible Group Item #3
+                          </a>
+                      </div>
+                      <div id="collapseThree" class="collapse" data-parent="#accordion">
+                          <div class="card-body">
+                              Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                              ut aliquip ex ea commodo consequat.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+
+          <!--
           <div class="row">
             
             <div class="col-12 col-md-6 col-lg-6">
@@ -159,7 +245,8 @@
 			      </div>
               
           </div>
-                            
+          -->
+
       </div><!-- no elimanar-->
       <footer class="main-footer">
         <div class="footer-left">

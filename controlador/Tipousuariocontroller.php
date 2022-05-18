@@ -44,9 +44,9 @@ class Tipousuariocontroller{
 	
 	
 	public function Mostrarusuarios(){
-		
-		$admin = $_SESSION['tipo_user'];
-		$query = $this->conexion->prepare("select * From usuarios,tipo_usuario where usuarios.usuario =  tipo_usuario.nombre_usuario and tipo_usuario != '$admin' ");
+
+		$query = $this->conexion->prepare("SELECT * FROM usuarios,tipo_usuario WHERE usuarios.usuario = tipo_usuario.nombre_usuario 
+        AND Tipo_usuario != 'ADMINISTRADOR' ");
 		$query->execute();
 		if($query->rowCount() >= 1){
 		while($row = $query->fetch(PDO::FETCH_ASSOC)){
@@ -54,11 +54,14 @@ class Tipousuariocontroller{
 			echo '<td>'.$row['Tipo_Usuario'].'</td>';
 			echo '<td>'.$row['usuario'].'</td>';
 			echo '<td>'.$row['nombre'].'</td>';
-			echo '<td>'.$row['correo'].'</td>';
-			echo '<td>'.$row['estatus'].'</td>';
+			echo '<td>'.$row['Correo'].'</td>';
+            echo '<td>'.$row['Identificacion'].'</td>';
+            echo '<td>'.$row['Telefono'].'</td>';
+            echo '<td>'.$row['Sexo'].'</td>';
+            echo '<td>'.$row['Fecha_de_Creacion'].'</td>';
 			echo '<td align="center">';
-            echo '<form action="EditarUsuarioA.php" method="post"><button name="editar"  value="'.$row['usuario'].'"><i class="ion ion-android-create"></i></button></form>';
-            echo '<button name="eliminar"  onclick=eliminarU("'.$row['usuario'].'")><i class="ion ion-android-delete"></i></button>';
+            //echo '<form action="EditarUsuarioA.php" method="post"><button name="editar"  value="'.$row['usuario'].'"><i class="ion ion-android-create"></i></button></form>';
+            //echo '<button name="eliminar"  onclick=eliminarU("'.$row['usuario'].'")><i class="ion ion-android-delete"></i></button>';
             echo '</td>';
 			
 			
