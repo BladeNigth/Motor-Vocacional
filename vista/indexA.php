@@ -62,8 +62,8 @@
       </nav>
       <div class="main-sidebar">
         <aside id="sidebar-wrapper">
-          <div class="sidebar-brand">
-            <a href="indexA.php">Motor Vocacional</a>
+          <div class="sidebar-brand" >
+            <a href="indexA.php" >Motor Vocacional</a>
           </div>
           <div class="sidebar-user">
             <div class="sidebar-user-picture">
@@ -86,8 +86,7 @@
           <ul class="sidebar-menu">
             <li class="menu-header">Principal</li>
             <li  id = "indexA">
-              <a href="indexA.php"><i class="ion ion-home"></i><span>Guia Vocacional</span></a>
-
+              <a   ><i class="ion ion-home"></i><span>Guia Vocacional</span></a>
             </li>
             <li  id = "procesoA">
               <a href="procesoA.php"><i class="ion ion-pause"></i><span>Proceso Vocacional</span></a>
@@ -102,7 +101,7 @@
       <div class="main-content">
 
           <section class = "section">
-            <h4 class="section-header">
+              <h4 class="section-header">
             	   Guia Vocacional
          	  </h4>
           </section>

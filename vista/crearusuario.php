@@ -53,8 +53,11 @@ else{
 		<div class="container-login100" tyle="background-color: #007bff">
 			<div class="wrap-login100">
 				
-					<span class="login100-form-logo">
-						<i class="zmdi zmdi-landscape"></i>
+					<span class="login100-form-logo" style="background-image: url(./images/Logo.svg); height: 130;
+					    width: 130; background-repeat: no-repeat; background-position: 50%; border-radius: 50%;
+					    background-color: #f5f1ee;
+                        background-size: 100% auto;">
+
 					</span>
 
 					<span class="login100-form-title p-b-34 p-t-27">
