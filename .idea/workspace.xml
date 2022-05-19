@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7228fdf2-2bf7-4855-8aed-2eb3a78c61a5" name="Changes" comment="agregando logo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/Tipousuariocontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/controlador/Tipousuariocontroller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/indexA.php" beforeDir="false" afterPath="$PROJECT_DIR$/vista/indexA.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vista/listauA.php" beforeDir="false" afterPath="$PROJECT_DIR$/vista/listauA.php" afterDir="false" />
-    </list>
+    <list default="true" id="7228fdf2-2bf7-4855-8aed-2eb3a78c61a5" name="Changes" comment="areglando mostrar usuarios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +71,7 @@
       <workItem from="1652747851095" duration="627000" />
       <workItem from="1652896653720" duration="3998000" />
       <workItem from="1652904739041" duration="3037000" />
-      <workItem from="1652909751536" duration="1241000" />
+      <workItem from="1652909751536" duration="1325000" />
     </task>
     <task id="LOCAL-00001" summary="primer comit">
       <created>1652724974352</created>
@@ -92,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652726254294</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="areglando mostrar usuarios">
+      <created>1652911821801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652911821801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +114,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="primer comit" />
     <MESSAGE value="agregando logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="agregando logo" />
+    <MESSAGE value="areglando mostrar usuarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="areglando mostrar usuarios" />
   </component>
 </project>
